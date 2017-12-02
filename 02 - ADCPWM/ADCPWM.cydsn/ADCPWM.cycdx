@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
+  <block name="Blue_LED" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="ADC_SAR_1" BASE="0x0" SIZE="0x0" desc="SAR ADC" visible="true" hidden="false">
+    <block name="ZeroTerminal_7" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="Clock_VirtualMux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_8" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ADC_SAR" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="vRef_Vdda_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_analog_noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="or_internalClock" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="noconnect_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_analog_virtualmux_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_analog_virtualmux_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_analog_virtualmux_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="noconnect" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_constant_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_analog_virtualmux_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="IRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <register name="SAR_TR0" address="0x40004616" bitWidth="8" desc="SAR trim register" hidden="false" />
+    <register name="SAR_CSR0" address="0x40005908" bitWidth="8" desc="SAR status and control register 0" hidden="false" />
+    <register name="SAR_CSR1" address="0x40005909" bitWidth="8" desc="SAR status and control register 1" hidden="false" />
+    <register name="SAR_CSR2" address="0x4000590A" bitWidth="8" desc="SAR status and control register 2" hidden="false" />
+    <register name="SAR_CSR3" address="0x4000590B" bitWidth="8" desc="SAR status and control register 3" hidden="false" />
+    <register name="SAR_CSR4" address="0x4000590C" bitWidth="8" desc="SAR status and control register 4" hidden="false" />
+    <register name="SAR_CSR5" address="0x4000590D" bitWidth="8" desc="SAR status and control register 5" hidden="false" />
+    <register name="SAR_CSR6" address="0x4000590E" bitWidth="8" desc="SAR status and control register 6" hidden="false" />
+    <register name="SAR_SW0" address="0x40005B28" bitWidth="8" desc="SAR Analog Routing Register 0" hidden="false" />
+    <register name="SAR_SW2" address="0x40005B2A" bitWidth="8" desc="SAR Analog Routing Register 2" hidden="false" />
+    <register name="SAR_SW3" address="0x40005B2B" bitWidth="8" desc="SAR Analog Routing Register 3" hidden="false" />
+    <register name="SAR_SW4" address="0x40005B2C" bitWidth="8" desc="SAR Analog Routing Register 4" hidden="false" />
+    <register name="SAR_SW6" address="0x40005B2E" bitWidth="8" desc="SAR Analog Routing Register 6" hidden="false" />
+    <register name="SAR_CLK" address="0x40005B2F" bitWidth="8" desc="SAR Clock Selection Register" hidden="false" />
+    <register name="SAR_WRK" address="0x40005BA2" bitWidth="16" desc="SAR working register" hidden="false" />
+  </block>
+  <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWM_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <block name="vmIRQ" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="vmCompare" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="ZeroTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="FFKillMux" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="OneTerminal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="vmTC" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="PWMHW" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <register name="PWM_1_GLOBAL_ENABLE" address="0x400043A3" bitWidth="8" desc="PM.ACT.CFG" hidden="false">
+      <field name="en_timer" from="3" to="0" access="RW" resetVal="" desc="Enable timer/counters." hidden="false" />
+    </register>
+    <register name="PWM_1_CONTROL" address="0x40004F00" bitWidth="8" desc="TMRx.CFG0" hidden="false">
+      <field name="EN" from="0" to="0" access="RW" resetVal="" desc="Enables timer/comparator." hidden="false" />
+      <field name="MODE" from="1" to="1" access="RW" resetVal="" desc="Mode. (0 = Timer; 1 = Comparator)" hidden="false">
+        <value name="Timer" value="0" desc="Timer mode. CNT/CMP register holds timer count value." />
+        <value name="Comparator" value="1" desc="Comparator mode. CNT/CMP register holds comparator threshold value." />
+      </field>
+      <field name="ONESHOT" from="2" to="2" access="RW" resetVal="" desc="Timer stops upon reaching stop condition defined by TMR_CFG bits. Can be restarted by asserting TIMER RESET or disabling and re-enabling block." hidden="false" />
+      <field name="CMP_BUFF" from="3" to="3" access="RW" resetVal="" desc="Buffer compare register. Compare register updates only on timer terminal count." hidden="false" />
+      <field name="INV" from="4" to="4" access="RW" resetVal="" desc="Invert sense of TIMEREN signal" hidden="false" />
+      <field name="DB" from="5" to="5" access="RW" resetVal="" desc="Deadband mode--Deadband phases phi1 and phi2 are outputted on CMP and TC output pins respectively." hidden="false">
+        <value name="Timer" value="0" desc="CMP and TC are output." />
+        <value name="Deadband" value="1" desc="PHI1 (instead of CMP) and PHI2 (instead of TC) are output." />
+      </field>
+      <field name="DEADBAND_PERIOD" from="7" to="6" access="RW" resetVal="" desc="Deadband Period" hidden="false" />
+    </register>
+    <register name="PWM_1_CONTROL2" address="0x40004F01" bitWidth="8" desc="TMRx.CFG1" hidden="false">
+      <field name="IRQ_SEL" from="0" to="0" access="RW" resetVal="" desc="Irq selection. (0 = raw interrupts; 1 = status register interrupts)" hidden="false" />
+      <field name="FTC" from="1" to="1" access="RW" resetVal="" desc="First Terminal Count (FTC). Setting this bit forces a single pulse on the TC pin when first enabled." hidden="false">
+        <value name="Disable FTC" value="0" desc="Disable the single cycle pulse, which signifies the timer is starting." />
+        <value name="Enable FTC" value="1" desc="Enable the single cycle pulse, which signifies the timer is starting." />
+      </field>
+      <field name="DCOR" from="2" to="2" access="RW" resetVal="" desc="Disable Clear on Read (DCOR) of Status Register SR0." hidden="false" />
+      <field name="DBMODE" from="3" to="3" access="RW" resetVal="" desc="Deadband mode (asynchronous/synchronous). CMP output pin is also affected when not in deadband mode (CFG0.DEADBAND)." hidden="false" />
+      <field name="CLK_BUS_EN_SEL" from="6" to="4" access="RW" resetVal="" desc="Digital Global Clock selection." hidden="false" />
+      <field name="BUS_CLK_SEL" from="7" to="7" access="RW" resetVal="" desc="Bus Clock selection." hidden="false" />
+    </register>
+    <register name="PWM_1_CONTROL3_" address="0x40004F02" bitWidth="8" desc="TMRx.CFG2" hidden="false">
+      <field name="TMR_CFG" from="1" to="0" access="RW" resetVal="" desc="Timer configuration (MODE = 0): 000 = Continuous; 001 = Pulsewidth; 010 = Period; 011 = Stop on IRQ" hidden="false">
+        <value name="Continuous" value="0" desc="Timer runs while EN bit of CFG0 register is set to '1'." />
+        <value name="Pulsewidth" value="1" desc="Timer runs from positive to negative edge of TIMEREN." />
+        <value name="Period" value="10" desc="Timer runs from positive to positive edge of TIMEREN." />
+        <value name="Irq" value="11" desc="Timer runs until IRQ." />
+      </field>
+      <field name="COD" from="2" to="2" access="RW" resetVal="" desc="Clear On Disable (COD). Clears or gates outputs to zero." hidden="false" />
+      <field name="ROD" from="3" to="3" access="RW" resetVal="" desc="Reset On Disable (ROD). Resets internal state of output logic" hidden="false" />
+      <field name="CMP_CFG" from="6" to="4" access="RW" resetVal="" desc="Comparator configurations" hidden="false">
+        <value name="Equal" value="0" desc="Compare Equal " />
+        <value name="Less than" value="1" desc="Compare Less Than " />
+        <value name="Less than or equal" value="10" desc="Compare Less Than or Equal ." />
+        <value name="Greater" value="11" desc="Compare Greater Than ." />
+        <value name="Greater than or equal" value="100" desc="Compare Greater Than or Equal " />
+      </field>
+      <field name="HW_EN" from="7" to="7" access="RW" resetVal="" desc="When set Timer Enable controls counting." hidden="false" />
+    </register>
+    <register name="PWM_1_PERIOD" address="0x40004F04" bitWidth="8" desc="TMRx.PER0 - Assigned Period" hidden="false" />
+    <register name="PWM_1_COMPARE" address="0x40004F06" bitWidth="8" desc="TMRx.CNT_CMP0 - Assigned Compare Value" hidden="false" />
+  </block>
+  <block name="TiggerTranquilizer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="ShesASwitch" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BouncyTime" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="Potentiometer" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_tff_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+</blockRegMap>
