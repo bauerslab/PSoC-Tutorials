@@ -1,0 +1,2432 @@
+Loading plugins phase: Elapsed time ==> 0s.119ms
+<CYPRESSTAG name="CyDsfit arguments...">
+cydsfit arguments: -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -d CY8C5888LTI-LP097 -s C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+</CYPRESSTAG>
+<CYPRESSTAG name="Design elaboration results...">
+</CYPRESSTAG>
+Elaboration phase: Elapsed time ==> 1s.217ms
+<CYPRESSTAG name="HDL generation results...">
+</CYPRESSTAG>
+HDL generation phase: Elapsed time ==> 0s.042ms
+<CYPRESSTAG name="Synthesis results...">
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp Verilog Synthesis Compiler: Version 6.3 IR 41
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  StepDirection.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -dcpsoc3 StepDirection.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  StepDirection.v
+Program  :   C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -dcpsoc3 StepDirection.v -verilog
+======================================================================
+
+======================================================================
+Compiling:  StepDirection.v
+Program  :   vlogfe
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -dcpsoc3 -verilog StepDirection.v
+======================================================================
+
+vlogfe V6.3 IR 41:  Verilog parser
+Sun Jun 20 16:01:03 2021
+
+
+======================================================================
+Compiling:  StepDirection.v
+Program  :   vpp
+Options  :    -yv2 -q10 StepDirection.v
+======================================================================
+
+vpp V6.3 IR 41:  Verilog Pre-Processor
+Sun Jun 20 16:01:03 2021
+
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Debouncer_v1_0\Debouncer_v1_0.v'
+Flattening file 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'
+
+vpp:  No errors.
+
+Library 'work' => directory 'lcpsoc3'
+General_symbol_table
+General_symbol_table
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Using control file 'StepDirection.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+vlogfe:  No errors.
+
+
+======================================================================
+Compiling:  StepDirection.v
+Program  :   tovif
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -dcpsoc3 -verilog StepDirection.v
+======================================================================
+
+tovif V6.3 IR 41:  High-level synthesis
+Sun Jun 20 16:01:03 2021
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\codegentemp\StepDirection.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\codegentemp\StepDirection.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Debouncer_v1_0\Debouncer_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+
+tovif:  No errors.
+
+
+======================================================================
+Compiling:  StepDirection.v
+Program  :   topld
+Options  :    -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -dcpsoc3 -verilog StepDirection.v
+======================================================================
+
+topld V6.3 IR 41:  Synthesis and optimization
+Sun Jun 20 16:01:04 2021
+
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\std.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.vhd'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\work\cypress.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_mthv.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif'.
+Linking 'C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\codegentemp\StepDirection.ctl'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\CyControlReg_v1_80\CyControlReg_v1_80.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cypress.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\cy_psoc3_inc.v'.
+Linking 'C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\codegentemp\StepDirection.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\and_v1_0\and_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\ZeroTerminal\ZeroTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_virtualmux_v1_0\cy_virtualmux_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\OneTerminal\OneTerminal.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\B_Counter_v3_0\B_Counter_v3_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\cy_constant_v1_0\cy_constant_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyPrimitives\cyprimitives.cylib\not_v1_0\not_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\Debouncer_v1_0\Debouncer_v1_0.v'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3pkg.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\common\stdlogic\cy_psoc3.vif'.
+Linking 'C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\lib\lcpsoc3\stdlogic\cpsoc3.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+    User names
+	Net_287
+	Net_288
+	Net_289
+	Net_291
+	Net_292
+	Net_293
+	Net_294
+	Net_332
+	Net_323
+	\Step_Timer:Net_49\
+	\Step_Timer:Net_82\
+	\Step_Timer:Net_95\
+	\Step_Timer:Net_91\
+	\Step_Timer:Net_102\
+	\Step_Timer:CounterUDB:ctrl_cmod_2\
+	\Step_Timer:CounterUDB:ctrl_cmod_1\
+	\Step_Timer:CounterUDB:ctrl_cmod_0\
+	\Step_Timer:CounterUDB:ctrl_enable\
+	\Step_Timer:CounterUDB:control_7\
+	\Step_Timer:CounterUDB:control_6\
+	\Step_Timer:CounterUDB:control_5\
+	\Step_Timer:CounterUDB:control_4\
+	\Step_Timer:CounterUDB:control_3\
+	\Step_Timer:CounterUDB:control_2\
+	\Step_Timer:CounterUDB:control_1\
+	\Step_Timer:CounterUDB:control_0\
+	Net_373
+	Net_363
+	\Step_Counter:Net_49\
+	\Step_Counter:Net_82\
+	\Step_Counter:Net_95\
+	\Step_Counter:Net_91\
+	\Step_Counter:Net_102\
+	\Step_Counter:CounterUDB:ctrl_cmod_2\
+	\Step_Counter:CounterUDB:ctrl_cmod_1\
+	\Step_Counter:CounterUDB:ctrl_cmod_0\
+	\Step_Counter:CounterUDB:reload_tc\
+	Net_310
+	Net_311
+	Net_312
+	Net_314
+	Net_315
+	Net_316
+	Net_317
+
+
+Deleted 44 User equations/components.
+Deleted 0 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \Enable:rst\ to \Enable:clk\
+Aliasing Net_17 to \Enable:clk\
+Aliasing one to \Step_Timer:Net_89\
+Aliasing \Step_Timer:CounterUDB:ctrl_capmode_1\ to \Enable:clk\
+Aliasing \Step_Timer:CounterUDB:ctrl_capmode_0\ to \Enable:clk\
+Aliasing \Step_Timer:CounterUDB:capt_rising\ to \Enable:clk\
+Aliasing \Step_Timer:CounterUDB:tc_i\ to \Step_Timer:CounterUDB:reload_tc\
+Aliasing zero to \Enable:clk\
+Aliasing tmpOE__Step_Pin_net_0 to \Step_Timer:Net_89\
+Aliasing tmpOE__Direction_Pin_net_0 to \Step_Timer:Net_89\
+Aliasing Net_35 to \Enable:clk\
+Aliasing tmpOE__LED_Pin_net_0 to \Step_Timer:Net_89\
+Aliasing \Step_Counter:CounterUDB:ctrl_capmode_1\ to \Enable:clk\
+Aliasing \Step_Counter:CounterUDB:ctrl_capmode_0\ to \Enable:clk\
+Aliasing \Step_Counter:CounterUDB:capt_rising\ to \Enable:clk\
+Aliasing \Step_Counter:CounterUDB:underflow\ to \Step_Counter:CounterUDB:status_1\
+Aliasing tmpOE__Button_Pin_net_0 to \Step_Timer:Net_89\
+Aliasing \Direction:clk\ to \Enable:clk\
+Aliasing \Direction:rst\ to \Enable:clk\
+Aliasing \Step_Timer:CounterUDB:prevCapture\\D\ to \Enable:clk\
+Aliasing \Step_Timer:CounterUDB:cmp_out_reg_i\\D\ to \Step_Timer:CounterUDB:prevCompare\\D\
+Aliasing \Step_Counter:CounterUDB:prevCapture\\D\ to \Enable:clk\
+Aliasing \Step_Counter:CounterUDB:cmp_out_reg_i\\D\ to \Step_Counter:CounterUDB:prevCompare\\D\
+Aliasing \Button_Debouncer:DEBOUNCER[0]:d_sync_1\\D\ to Net_376
+Aliasing Net_379D to \Enable:clk\
+Aliasing Net_377D to \Enable:clk\
+Aliasing Net_378D to \Enable:clk\
+Removing Lhs of wire \Enable:rst\[1] = \Enable:clk\[0]
+Removing Rhs of wire Net_274[2] = \Enable:control_out_0\[3]
+Removing Rhs of wire Net_274[2] = \Enable:control_0\[26]
+Removing Rhs of wire Net_17[31] = \Enable:clk\[0]
+Removing Rhs of wire one[43] = \Step_Timer:Net_89\[37]
+Removing Lhs of wire \Step_Timer:CounterUDB:ctrl_capmode_1\[48] = Net_17[31]
+Removing Lhs of wire \Step_Timer:CounterUDB:ctrl_capmode_0\[49] = Net_17[31]
+Removing Lhs of wire \Step_Timer:CounterUDB:capt_rising\[60] = Net_17[31]
+Removing Lhs of wire \Step_Timer:CounterUDB:capt_falling\[61] = \Step_Timer:CounterUDB:prevCapture\[59]
+Removing Lhs of wire \Step_Timer:CounterUDB:final_enable\[66] = Net_331[27]
+Removing Lhs of wire \Step_Timer:CounterUDB:counter_enable\[67] = Net_331[27]
+Removing Rhs of wire \Step_Timer:CounterUDB:status_0\[68] = \Step_Timer:CounterUDB:cmp_out_status\[69]
+Removing Rhs of wire \Step_Timer:CounterUDB:status_1\[70] = \Step_Timer:CounterUDB:per_zero\[71]
+Removing Rhs of wire \Step_Timer:CounterUDB:status_2\[72] = \Step_Timer:CounterUDB:overflow_status\[73]
+Removing Rhs of wire \Step_Timer:CounterUDB:status_3\[74] = \Step_Timer:CounterUDB:underflow_status\[75]
+Removing Lhs of wire \Step_Timer:CounterUDB:status_4\[76] = \Step_Timer:CounterUDB:hwCapture\[63]
+Removing Rhs of wire \Step_Timer:CounterUDB:status_5\[77] = \Step_Timer:CounterUDB:fifo_full\[78]
+Removing Rhs of wire \Step_Timer:CounterUDB:status_6\[79] = \Step_Timer:CounterUDB:fifo_nempty\[80]
+Removing Lhs of wire \Step_Timer:CounterUDB:dp_dir\[83] = one[43]
+Removing Lhs of wire \Step_Timer:CounterUDB:tc_i\[88] = \Step_Timer:CounterUDB:reload_tc\[65]
+Removing Rhs of wire \Step_Timer:CounterUDB:cmp_out_i\[90] = \Step_Timer:CounterUDB:cmp_less\[91]
+Removing Rhs of wire Net_300[94] = \Step_Timer:CounterUDB:cmp_out_reg_i\[93]
+Removing Lhs of wire \Step_Timer:CounterUDB:cs_addr_2\[97] = one[43]
+Removing Lhs of wire \Step_Timer:CounterUDB:cs_addr_1\[98] = \Step_Timer:CounterUDB:count_enable\[96]
+Removing Lhs of wire \Step_Timer:CounterUDB:cs_addr_0\[99] = \Step_Timer:CounterUDB:reload\[64]
+Removing Lhs of wire zero[101] = Net_17[31]
+Removing Lhs of wire tmpOE__Step_Pin_net_0[274] = one[43]
+Removing Lhs of wire tmpOE__Direction_Pin_net_0[280] = one[43]
+Removing Rhs of wire Net_308[281] = \Direction:control_out_0\[542]
+Removing Rhs of wire Net_308[281] = \Direction:control_0\[565]
+Removing Lhs of wire Net_35[286] = Net_17[31]
+Removing Rhs of wire Net_275[287] = \Step_Counter:CounterUDB:cmp_out_reg_i\[354]
+Removing Lhs of wire tmpOE__LED_Pin_net_0[289] = one[43]
+Removing Lhs of wire \Step_Counter:Net_89\[299] = Net_308[281]
+Removing Lhs of wire \Step_Counter:CounterUDB:ctrl_capmode_1\[308] = Net_17[31]
+Removing Lhs of wire \Step_Counter:CounterUDB:ctrl_capmode_0\[309] = Net_17[31]
+Removing Lhs of wire \Step_Counter:CounterUDB:ctrl_enable\[321] = \Step_Counter:CounterUDB:control_7\[313]
+Removing Lhs of wire \Step_Counter:CounterUDB:capt_rising\[323] = Net_17[31]
+Removing Lhs of wire \Step_Counter:CounterUDB:capt_falling\[324] = \Step_Counter:CounterUDB:prevCapture\[322]
+Removing Lhs of wire \Step_Counter:CounterUDB:reload\[327] = Net_17[31]
+Removing Lhs of wire \Step_Counter:CounterUDB:final_enable\[328] = \Step_Counter:CounterUDB:control_7\[313]
+Removing Lhs of wire \Step_Counter:CounterUDB:counter_enable\[329] = \Step_Counter:CounterUDB:control_7\[313]
+Removing Rhs of wire \Step_Counter:CounterUDB:status_0\[330] = \Step_Counter:CounterUDB:cmp_out_status\[331]
+Removing Rhs of wire \Step_Counter:CounterUDB:status_1\[332] = \Step_Counter:CounterUDB:per_zero\[333]
+Removing Rhs of wire \Step_Counter:CounterUDB:status_2\[334] = \Step_Counter:CounterUDB:overflow_status\[335]
+Removing Rhs of wire \Step_Counter:CounterUDB:status_3\[336] = \Step_Counter:CounterUDB:underflow_status\[337]
+Removing Lhs of wire \Step_Counter:CounterUDB:status_4\[338] = \Step_Counter:CounterUDB:hwCapture\[326]
+Removing Rhs of wire \Step_Counter:CounterUDB:status_5\[339] = \Step_Counter:CounterUDB:fifo_full\[340]
+Removing Rhs of wire \Step_Counter:CounterUDB:status_6\[341] = \Step_Counter:CounterUDB:fifo_nempty\[342]
+Removing Rhs of wire \Step_Counter:CounterUDB:overflow\[344] = \Step_Counter:CounterUDB:per_FF\[345]
+Removing Lhs of wire \Step_Counter:CounterUDB:underflow\[346] = \Step_Counter:CounterUDB:status_1\[332]
+Removing Rhs of wire \Step_Counter:CounterUDB:cmp_out_i\[351] = \Step_Counter:CounterUDB:cmp_equal\[352]
+Removing Lhs of wire \Step_Counter:CounterUDB:dp_dir\[357] = Net_308[281]
+Removing Lhs of wire \Step_Counter:CounterUDB:cs_addr_2\[359] = Net_308[281]
+Removing Lhs of wire \Step_Counter:CounterUDB:cs_addr_1\[360] = \Step_Counter:CounterUDB:count_enable\[356]
+Removing Lhs of wire \Step_Counter:CounterUDB:cs_addr_0\[361] = Net_17[31]
+Removing Lhs of wire tmpOE__Button_Pin_net_0[535] = one[43]
+Removing Lhs of wire \Direction:clk\[540] = Net_17[31]
+Removing Lhs of wire \Direction:rst\[541] = Net_17[31]
+Removing Rhs of wire Net_376[570] = \Button_Debouncer:DEBOUNCER[0]:d_sync_0\[574]
+Removing Lhs of wire \Step_Timer:CounterUDB:prevCapture\\D\[581] = Net_17[31]
+Removing Lhs of wire \Step_Timer:CounterUDB:overflow_reg_i\\D\[582] = \Step_Timer:CounterUDB:overflow\[82]
+Removing Lhs of wire \Step_Timer:CounterUDB:underflow_reg_i\\D\[583] = \Step_Timer:CounterUDB:underflow\[85]
+Removing Lhs of wire \Step_Timer:CounterUDB:tc_reg_i\\D\[584] = \Step_Timer:CounterUDB:reload_tc\[65]
+Removing Lhs of wire \Step_Timer:CounterUDB:prevCompare\\D\[585] = \Step_Timer:CounterUDB:cmp_out_i\[90]
+Removing Lhs of wire \Step_Timer:CounterUDB:cmp_out_reg_i\\D\[586] = \Step_Timer:CounterUDB:cmp_out_i\[90]
+Removing Lhs of wire \Step_Timer:CounterUDB:count_stored_i\\D\[587] = Net_335[30]
+Removing Lhs of wire \Step_Counter:CounterUDB:prevCapture\\D\[588] = Net_17[31]
+Removing Lhs of wire \Step_Counter:CounterUDB:overflow_reg_i\\D\[589] = \Step_Counter:CounterUDB:overflow\[344]
+Removing Lhs of wire \Step_Counter:CounterUDB:underflow_reg_i\\D\[590] = \Step_Counter:CounterUDB:status_1\[332]
+Removing Lhs of wire \Step_Counter:CounterUDB:tc_reg_i\\D\[591] = \Step_Counter:CounterUDB:tc_i\[349]
+Removing Lhs of wire \Step_Counter:CounterUDB:prevCompare\\D\[592] = \Step_Counter:CounterUDB:cmp_out_i\[351]
+Removing Lhs of wire \Step_Counter:CounterUDB:cmp_out_reg_i\\D\[593] = \Step_Counter:CounterUDB:cmp_out_i\[351]
+Removing Lhs of wire \Step_Counter:CounterUDB:count_stored_i\\D\[594] = Net_300[94]
+Removing Lhs of wire \Button_Debouncer:DEBOUNCER[0]:d_sync_0\\D\[595] = Net_374[575]
+Removing Lhs of wire \Button_Debouncer:DEBOUNCER[0]:d_sync_1\\D\[596] = Net_376[570]
+Removing Lhs of wire Net_379D[597] = Net_17[31]
+Removing Lhs of wire Net_377D[598] = Net_17[31]
+Removing Lhs of wire Net_378D[599] = Net_17[31]
+
+------------------------------------------------------
+Aliased 0 equations, 79 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Substituting virtuals - pass 1:
+
+Note:  Expanding virtual equation for 'Net_17' (cost = 0):
+Net_17 <=  ('0') ;
+
+Note:  Expanding virtual equation for 'Net_114' (cost = 0):
+Net_114 <= (not Net_275);
+
+Note:  Expanding virtual equation for 'one' (cost = 0):
+one <=  ('1') ;
+
+Note:  Expanding virtual equation for '\Step_Timer:CounterUDB:capt_either_edge\' (cost = 0):
+\Step_Timer:CounterUDB:capt_either_edge\ <= (\Step_Timer:CounterUDB:prevCapture\);
+
+Note:  Expanding virtual equation for '\Step_Timer:CounterUDB:overflow\' (cost = 0):
+\Step_Timer:CounterUDB:overflow\ <= (\Step_Timer:CounterUDB:per_equal\);
+
+Note:  Expanding virtual equation for '\Step_Timer:CounterUDB:underflow\' (cost = 0):
+\Step_Timer:CounterUDB:underflow\ <=  ('0') ;
+
+Note:  Expanding virtual equation for '\Step_Counter:CounterUDB:capt_either_edge\' (cost = 0):
+\Step_Counter:CounterUDB:capt_either_edge\ <= (\Step_Counter:CounterUDB:prevCapture\);
+
+
+Substituting virtuals - pass 2:
+
+Note:  Expanding virtual equation for 'Net_331' (cost = 1):
+Net_331 <= ((not Net_275 and Net_274));
+
+Note:  Expanding virtual equation for '\Step_Timer:CounterUDB:reload_tc\' (cost = 0):
+\Step_Timer:CounterUDB:reload_tc\ <= (\Step_Timer:CounterUDB:per_equal\);
+
+
+Substituting virtuals - pass 3:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 9 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+Aliasing \Step_Timer:CounterUDB:hwCapture\ to Net_17
+Aliasing \Step_Timer:CounterUDB:status_3\ to Net_17
+Aliasing \Step_Timer:CounterUDB:underflow\ to Net_17
+Aliasing \Step_Counter:CounterUDB:hwCapture\ to Net_17
+Removing Lhs of wire \Step_Timer:CounterUDB:hwCapture\[63] = Net_17[31]
+Removing Rhs of wire \Step_Timer:CounterUDB:reload\[64] = \Step_Timer:CounterUDB:per_equal\[84]
+Removing Lhs of wire \Step_Timer:CounterUDB:status_3\[74] = Net_17[31]
+Removing Lhs of wire \Step_Timer:CounterUDB:underflow\[85] = Net_17[31]
+Removing Lhs of wire \Step_Counter:CounterUDB:hwCapture\[326] = Net_17[31]
+
+------------------------------------------------------
+Aliased 0 equations, 5 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+Eliminating unused logic - pass 1:
+
+
+Eliminating unused logic - pass 2:
+
+
+Substituting virtuals - pass 1:
+
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 3.
+----------------------------------------------------------
+
+topld:  No errors.
+
+CYPRESS_DIR    : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp
+Warp Program   : C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\warp\bin\warp.exe
+Warp Arguments : -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya "-.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj" -dcpsoc3 StepDirection.v -verilog
+</CYPRESSTAG>
+Warp synthesis phase: Elapsed time ==> 2s.509ms
+<CYPRESSTAG name="Fitter results...">
+<CYPRESSTAG name="Fitter startup details...">
+cyp3fit: V4.4.0.80, Family: PSoC3, Started at: Sunday, 20 June 2021 16:01:04
+Options: -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE -ya -.fftprj=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection.cyprj -d CY8C5888LTI-LP097 StepDirection.v -verilog
+</CYPRESSTAG>
+<CYPRESSTAG name="Design parsing">
+Design parsing phase: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Tech Mapping">
+<CYPRESSTAG name="Initial Mapping" icon="FILE_RPT_TECHM">
+    Converted constant MacroCell: \Step_Timer:CounterUDB:prevCapture\ from registered to combinatorial
+    Converted constant MacroCell: \Step_Timer:CounterUDB:underflow_reg_i\ from registered to combinatorial
+    Converted constant MacroCell: \Step_Counter:CounterUDB:prevCapture\ from registered to combinatorial
+    Converted constant MacroCell: Net_379 from registered to combinatorial
+    Converted constant MacroCell: Net_377 from registered to combinatorial
+    Converted constant MacroCell: Net_378 from registered to combinatorial
+Assigning clock Bun to clock BUS_CLK because it is a pass-through
+<CYPRESSTAG name="Global Clock Selection" icon="FILE_RPT_TECHM">
+    Digital Clock 0: Automatic-assigning  clock 'step_clock'. Fanout=2, Signal=Net_335
+    Digital Clock 1: Automatic-assigning  clock 'Button_Debounce_Clock'. Fanout=1, Signal=Net_375
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="UDB Clock/Enable Remapping Results">
+    UDB Clk/Enable \Step_Timer:CounterUDB:clock_enable_block\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \Step_Counter:CounterUDB:clock_enable_block\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \Step_Counter:CounterUDB:sCTRLReg:cy_psoc3_udb_Ctl_Clk_Sync\: with output requested to be synchronous
+        ClockIn: BUS_CLK was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: BUS_CLK, EnableOut: Constant 1
+    UDB Clk/Enable \Button_Debouncer:ClkSync\: with output requested to be synchronous
+        ClockIn: Button_Debounce_Clock was determined to be a global clock that is synchronous to BUS_CLK
+        EnableIn: Constant 1 was determined to be synchronous to ClockIn
+        ClockOut: Button_Debounce_Clock, EnableOut: Constant 1
+</CYPRESSTAG>
+
+Removing unused cells resulting from optimization
+Done removing unused cells.
+<CYPRESSTAG name="Duplicate Macrocell detection">
+
+Removing duplicate macrocells
+    Removing Net_275, Duplicate of \Step_Counter:CounterUDB:prevCompare\ 
+    MacroCell: Name=Net_275, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:cmp_out_i\
+        );
+        Output = Net_275 (fanout=3)
+
+    Removing Net_300, Duplicate of \Step_Timer:CounterUDB:prevCompare\ 
+    MacroCell: Name=Net_300, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:cmp_out_i\
+        );
+        Output = Net_300 (fanout=4)
+
+End removing duplicate macrocells: used 1 pass
+</CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Duplicate Macrocell detection">
+</CYPRESSTAG>
+<CYPRESSTAG name="Design Equations" icon="FILE_RPT_EQUATION">
+
+------------------------------------------------------------
+Design Equations
+------------------------------------------------------------
+    <CYPRESSTAG name="Pin listing">
+
+    ------------------------------------------------------------
+    Pin listing
+    ------------------------------------------------------------
+
+    Pin : Name = Step_Pin(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Step_Pin(0)__PA ,
+            pin_input => \Step_Timer:CounterUDB:prevCompare\ ,
+            pad => Step_Pin(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Direction_Pin(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Direction_Pin(0)__PA ,
+            pin_input => Net_308 ,
+            pad => Direction_Pin(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = LED_Pin(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: AUTO
+            Out Sync Option: NOSYNC
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: CMOS_OUT
+            VTrip: EITHER
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 0
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => LED_Pin(0)__PA ,
+            pin_input => Net_331 ,
+            pad => LED_Pin(0)_PAD );
+        Properties:
+        {
+        }
+
+    Pin : Name = Button_Pin(0)
+        Attributes:
+            In Group/Port: True
+            In Sync Option: NOSYNC
+            Out Sync Option: AUTO
+            Interrupt generated: False
+            Interrupt mode: NONE
+            Drive mode: RES_PULL_UP
+            VTrip: CMOS
+            Slew: FAST
+            Input Sync needed: False
+            Output Sync needed: False
+            SC shield enabled: False
+            POR State: ANY
+            LCD Mode: COMMON
+            Register Mode: RegComb
+            CaSense Mode: NEITHER
+            Treat as pin: True
+            Is OE Registered: False
+            Uses Analog: False
+            Can contain Digital: True
+            Is SIO: False
+            SIO Output Buf: NONREGULATED
+            SIO Input Buf: SINGLE_ENDED
+            SIO HiFreq: LOW
+            SIO Hyst: DISABLED
+            SIO Vtrip: MULTIPLIER_0_5
+            SIO Multiplier Index: 0
+            SIO RefSel: VCC_IO
+            Required Capabilities: DIGITAL, ROUTABLE
+            Initial Value: 1
+            IO Voltage: 0
+        PORT MAP (
+            pa_out => Button_Pin(0)__PA ,
+            fb => Net_384 ,
+            pad => Button_Pin(0)_PAD );
+        Properties:
+        {
+        }
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Macrocell listing" icon="FILE_RPT_EQUATION">
+
+    ------------------------------------------------------------
+    Macrocell listing
+    ------------------------------------------------------------
+
+    MacroCell: Name=Net_331, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_274 * !\Step_Counter:CounterUDB:prevCompare\
+        );
+        Output = Net_331 (fanout=1)
+
+    MacroCell: Name=\Step_Timer:CounterUDB:status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:cmp_out_i\ * 
+              !\Step_Timer:CounterUDB:prevCompare\
+        );
+        Output = \Step_Timer:CounterUDB:status_0\ (fanout=1)
+
+    MacroCell: Name=\Step_Timer:CounterUDB:status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:reload\ * 
+              !\Step_Timer:CounterUDB:overflow_reg_i\
+        );
+        Output = \Step_Timer:CounterUDB:status_2\ (fanout=1)
+
+    MacroCell: Name=\Step_Timer:CounterUDB:count_enable\, Mode=(Combinatorial)
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_274 * !\Step_Timer:CounterUDB:count_stored_i\ * 
+              !\Step_Counter:CounterUDB:prevCompare\ * Net_335_local
+        );
+        Output = \Step_Timer:CounterUDB:count_enable\ (fanout=4)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:status_0\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:cmp_out_i\ * 
+              !\Step_Counter:CounterUDB:prevCompare\
+        );
+        Output = \Step_Counter:CounterUDB:status_0\ (fanout=1)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:status_2\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:overflow\ * 
+              !\Step_Counter:CounterUDB:overflow_reg_i\
+        );
+        Output = \Step_Counter:CounterUDB:status_2\ (fanout=1)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:status_3\, Mode=(Combinatorial)
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:status_1\ * 
+              !\Step_Counter:CounterUDB:underflow_reg_i\
+        );
+        Output = \Step_Counter:CounterUDB:status_3\ (fanout=1)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:count_enable\, Mode=(Combinatorial)
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:prevCompare\ * 
+              \Step_Counter:CounterUDB:control_7\ * 
+              !\Step_Counter:CounterUDB:count_stored_i\
+        );
+        Output = \Step_Counter:CounterUDB:count_enable\ (fanout=4)
+
+    MacroCell: Name=__ONE__, Mode=(Combinatorial)
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=4)
+
+    MacroCell: Name=\Step_Timer:CounterUDB:overflow_reg_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:reload\
+        );
+        Output = \Step_Timer:CounterUDB:overflow_reg_i\ (fanout=1)
+
+    MacroCell: Name=\Step_Timer:CounterUDB:prevCompare\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:cmp_out_i\
+        );
+        Output = \Step_Timer:CounterUDB:prevCompare\ (fanout=5)
+
+    MacroCell: Name=\Step_Timer:CounterUDB:count_stored_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_335_local
+        );
+        Output = \Step_Timer:CounterUDB:count_stored_i\ (fanout=1)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:overflow_reg_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:overflow\
+        );
+        Output = \Step_Counter:CounterUDB:overflow_reg_i\ (fanout=1)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:underflow_reg_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:status_1\
+        );
+        Output = \Step_Counter:CounterUDB:underflow_reg_i\ (fanout=1)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:prevCompare\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:cmp_out_i\
+        );
+        Output = \Step_Counter:CounterUDB:prevCompare\ (fanout=4)
+
+    MacroCell: Name=\Step_Counter:CounterUDB:count_stored_i\, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:prevCompare\
+        );
+        Output = \Step_Counter:CounterUDB:count_stored_i\ (fanout=1)
+
+    MacroCell: Name=Net_376, Mode=(D-Register)
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_375) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_384
+        );
+        Output = Net_376 (fanout=1)
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Datapath listing">
+
+    ------------------------------------------------------------
+    Datapath listing
+    ------------------------------------------------------------
+
+    datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u0\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+            cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+            chain_out => \Step_Timer:CounterUDB:sC32:counterdp:carry0\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Next in chain : \Step_Timer:CounterUDB:sC32:counterdp:u1\
+
+    datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u1\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+            cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+            chain_in => \Step_Timer:CounterUDB:sC32:counterdp:carry0\ ,
+            chain_out => \Step_Timer:CounterUDB:sC32:counterdp:carry1\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \Step_Timer:CounterUDB:sC32:counterdp:u0\
+        Next in chain : \Step_Timer:CounterUDB:sC32:counterdp:u2\
+
+    datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u2\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+            cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+            chain_in => \Step_Timer:CounterUDB:sC32:counterdp:carry1\ ,
+            chain_out => \Step_Timer:CounterUDB:sC32:counterdp:carry2\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \Step_Timer:CounterUDB:sC32:counterdp:u1\
+        Next in chain : \Step_Timer:CounterUDB:sC32:counterdp:u3\
+
+    datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u3\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => __ONE__ ,
+            cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+            cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+            ce0_comb => \Step_Timer:CounterUDB:reload\ ,
+            z0_comb => \Step_Timer:CounterUDB:status_1\ ,
+            cl1_comb => \Step_Timer:CounterUDB:cmp_out_i\ ,
+            f0_bus_stat_comb => \Step_Timer:CounterUDB:status_6\ ,
+            f0_blk_stat_comb => \Step_Timer:CounterUDB:status_5\ ,
+            chain_in => \Step_Timer:CounterUDB:sC32:counterdp:carry2\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \Step_Timer:CounterUDB:sC32:counterdp:u2\
+
+    datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u0\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => Net_308 ,
+            cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+            chain_out => \Step_Counter:CounterUDB:sC32:counterdp:carry0\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Next in chain : \Step_Counter:CounterUDB:sC32:counterdp:u1\
+
+    datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u1\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => Net_308 ,
+            cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+            chain_in => \Step_Counter:CounterUDB:sC32:counterdp:carry0\ ,
+            chain_out => \Step_Counter:CounterUDB:sC32:counterdp:carry1\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \Step_Counter:CounterUDB:sC32:counterdp:u0\
+        Next in chain : \Step_Counter:CounterUDB:sC32:counterdp:u2\
+
+    datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u2\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => Net_308 ,
+            cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+            chain_in => \Step_Counter:CounterUDB:sC32:counterdp:carry1\ ,
+            chain_out => \Step_Counter:CounterUDB:sC32:counterdp:carry2\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \Step_Counter:CounterUDB:sC32:counterdp:u1\
+        Next in chain : \Step_Counter:CounterUDB:sC32:counterdp:u3\
+
+    datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u3\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            cs_addr_2 => Net_308 ,
+            cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+            z0_comb => \Step_Counter:CounterUDB:status_1\ ,
+            f0_comb => \Step_Counter:CounterUDB:overflow\ ,
+            ce1_comb => \Step_Counter:CounterUDB:cmp_out_i\ ,
+            f0_bus_stat_comb => \Step_Counter:CounterUDB:status_6\ ,
+            f0_blk_stat_comb => \Step_Counter:CounterUDB:status_5\ ,
+            chain_in => \Step_Counter:CounterUDB:sC32:counterdp:carry2\ );
+        Properties:
+        {
+            a0_init = "00000000"
+            a1_init = "00000000"
+            ce0_sync = 1
+            ce1_sync = 1
+            cl0_sync = 1
+            cl1_sync = 1
+            cmsb_sync = 1
+            co_msb_sync = 1
+            cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+            d0_init = "00000000"
+            d1_init = "00000000"
+            f0_blk_sync = 1
+            f0_bus_sync = 1
+            f1_blk_sync = 1
+            f1_bus_sync = 1
+            ff0_sync = 1
+            ff1_sync = 1
+            ov_msb_sync = 1
+            so_sync = 1
+            z0_sync = 1
+            z1_sync = 1
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+        Previous in chain : \Step_Counter:CounterUDB:sC32:counterdp:u2\
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Status register listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="StatusI register listing">
+
+    ------------------------------------------------------------
+    StatusI register listing
+    ------------------------------------------------------------
+
+    statusicell: Name =\Step_Timer:CounterUDB:sSTSReg:stsreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            status_6 => \Step_Timer:CounterUDB:status_6\ ,
+            status_5 => \Step_Timer:CounterUDB:status_5\ ,
+            status_2 => \Step_Timer:CounterUDB:status_2\ ,
+            status_1 => \Step_Timer:CounterUDB:status_1\ ,
+            status_0 => \Step_Timer:CounterUDB:status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0011111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    statusicell: Name =\Step_Counter:CounterUDB:sSTSReg:stsreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            status_6 => \Step_Counter:CounterUDB:status_6\ ,
+            status_5 => \Step_Counter:CounterUDB:status_5\ ,
+            status_3 => \Step_Counter:CounterUDB:status_3\ ,
+            status_2 => \Step_Counter:CounterUDB:status_2\ ,
+            status_1 => \Step_Counter:CounterUDB:status_1\ ,
+            status_0 => \Step_Counter:CounterUDB:status_0\ );
+        Properties:
+        {
+            cy_force_order = 1
+            cy_int_mask = "1111111"
+            cy_md_select = "0011111"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Sync listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Control register listing">
+
+    ------------------------------------------------------------
+    Control register listing
+    ------------------------------------------------------------
+
+    controlcell: Name =\Enable:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \Enable:control_7\ ,
+            control_6 => \Enable:control_6\ ,
+            control_5 => \Enable:control_5\ ,
+            control_4 => \Enable:control_4\ ,
+            control_3 => \Enable:control_3\ ,
+            control_2 => \Enable:control_2\ ,
+            control_1 => \Enable:control_1\ ,
+            control_0 => Net_274 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+
+    controlcell: Name =\Step_Counter:CounterUDB:sCTRLReg:ctrlreg\
+        PORT MAP (
+            clock => ClockBlock_BUS_CLK ,
+            control_7 => \Step_Counter:CounterUDB:control_7\ ,
+            control_6 => \Step_Counter:CounterUDB:control_6\ ,
+            control_5 => \Step_Counter:CounterUDB:control_5\ ,
+            control_4 => \Step_Counter:CounterUDB:control_4\ ,
+            control_3 => \Step_Counter:CounterUDB:control_3\ ,
+            control_2 => \Step_Counter:CounterUDB:control_2\ ,
+            control_1 => \Step_Counter:CounterUDB:control_1\ ,
+            control_0 => \Step_Counter:CounterUDB:control_0\ );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "11111111"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Polarity: Active High
+        Clock Enable: True
+
+    controlcell: Name =\Direction:Sync:ctrl_reg\
+        PORT MAP (
+            control_7 => \Direction:control_7\ ,
+            control_6 => \Direction:control_6\ ,
+            control_5 => \Direction:control_5\ ,
+            control_4 => \Direction:control_4\ ,
+            control_3 => \Direction:control_3\ ,
+            control_2 => \Direction:control_2\ ,
+            control_1 => \Direction:control_1\ ,
+            control_0 => Net_308 );
+        Properties:
+        {
+            cy_ctrl_mode_0 = "00000000"
+            cy_ctrl_mode_1 = "00000000"
+            cy_ext_reset = 0
+            cy_force_order = 1
+            cy_init_value = "00000000"
+        }
+        Clock Enable: True
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Count7 listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="DRQ listing">
+    </CYPRESSTAG>
+    <CYPRESSTAG name="Interrupt listing">
+
+    ------------------------------------------------------------
+    Interrupt listing
+    ------------------------------------------------------------
+
+    interrupt: Name =Step_Interrupt
+        PORT MAP (
+            interrupt => \Step_Timer:CounterUDB:prevCompare\ );
+        Properties:
+        {
+            int_type = "00"
+            is_nmi = 0
+        }
+
+    interrupt: Name =Done_Interrupt
+        PORT MAP (
+            interrupt => \Step_Counter:CounterUDB:prevCompare\ );
+        Properties:
+        {
+            int_type = "00"
+            is_nmi = 0
+        }
+
+    interrupt: Name =Button_Interrupt
+        PORT MAP (
+            interrupt => Net_376 );
+        Properties:
+        {
+            int_type = "00"
+            is_nmi = 0
+        }
+    </CYPRESSTAG>
+</CYPRESSTAG>
+<CYPRESSTAG name="Technology mapping summary" expanded>
+
+------------------------------------------------------------
+Technology mapping summary
+------------------------------------------------------------
+
+Resource Type                 : Used : Free :  Max :  % Used
+============================================================
+Digital Clocks                :    2 :    6 :    8 : 25.00 %
+Analog Clocks                 :    0 :    4 :    4 :  0.00 %
+CapSense Buffers              :    0 :    2 :    2 :  0.00 %
+Digital Filter Block          :    0 :    1 :    1 :  0.00 %
+Interrupts                    :    3 :   29 :   32 :  9.38 %
+IO                            :    7 :   41 :   48 : 14.58 %
+Segment LCD                   :    0 :    1 :    1 :  0.00 %
+CAN 2.0b                      :    0 :    1 :    1 :  0.00 %
+I2C                           :    0 :    1 :    1 :  0.00 %
+USB                           :    0 :    1 :    1 :  0.00 %
+DMA Channels                  :    0 :   24 :   24 :  0.00 %
+Timer                         :    0 :    4 :    4 :  0.00 %
+UDB                           :      :      :      :        
+  Macrocells                  :   17 :  175 :  192 :  8.85 %
+  Unique P-terms              :   16 :  368 :  384 :  4.17 %
+  Total P-terms               :   16 :      :      :        
+  Datapath Cells              :    8 :   16 :   24 : 33.33 %
+  Status Cells                :    2 :   22 :   24 :  8.33 %
+    StatusI Registers         :    2 :      :      :        
+  Control Cells               :    3 :   21 :   24 : 12.50 %
+    Control Registers         :    3 :      :      :        
+Opamp                         :    0 :    4 :    4 :  0.00 %
+Comparator                    :    0 :    4 :    4 :  0.00 %
+Delta-Sigma ADC               :    0 :    1 :    1 :  0.00 %
+LPF                           :    0 :    2 :    2 :  0.00 %
+SAR ADC                       :    0 :    2 :    2 :  0.00 %
+Analog (SC/CT) Blocks         :    0 :    4 :    4 :  0.00 %
+DAC                           :      :      :      :        
+  VIDAC                       :    0 :    4 :    4 :  0.00 %
+</CYPRESSTAG>
+Technology Mapping: Elapsed time ==> 0s.068ms
+Tech Mapping phase: Elapsed time ==> 0s.153ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Placement">
+Initial Analog Placement Results:
+IO_2@[IOP=(2)][IoId=(2)] : Button_Pin(0) (fixed)
+IO_6@[IOP=(0)][IoId=(6)] : Direction_Pin(0) (fixed)
+IO_1@[IOP=(2)][IoId=(1)] : LED_Pin(0) (fixed)
+IO_5@[IOP=(0)][IoId=(5)] : Step_Pin(0) (fixed)
+Analog Placement phase: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Routing">
+Analog Routing phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Analog Code Generation">
+============ Analog Final Answer Routes ============
+Dump of CyAnalogRoutingResultsDB
+Map of net to items {
+}
+Map of item to net {
+}
+Mux Info {
+}
+Dump of CyP35AnalogRoutingResultsDB
+IsVddaHalfUsedForComp = False
+IsVddaHalfUsedForSar0 = False
+IsVddaHalfUsedForSar1 = False
+Analog Code Generation phase: Elapsed time ==> 0s.228ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Placement">
+<CYPRESSTAG name="Detailed placement messages">
+I2076: Total run-time: 0.8 sec.
+
+</CYPRESSTAG>
+<CYPRESSTAG name="PLD Packing">
+<CYPRESSTAG name="PLD Packing Summary" expanded>
+
+------------------------------------------------------------
+PLD Packing Summary
+------------------------------------------------------------
+            Resource Type : Used : Free :  Max :  % Used
+    ====================================================
+                     PLDs :    7 :   41 :   48 :  14.58%
+
+<CYPRESSTAG name="PLD Statistics">
+
+        PLD Resource Type :     Average/LAB
+    =======================================
+                   Inputs :            3.14
+                   Pterms :            2.29
+               Macrocells :            2.43
+</CYPRESSTAG>
+<CYPRESSTAG name="Packed PLD Contents">
+Packed PLD Contents not displayed at this verbose level.</CYPRESSTAG>
+</CYPRESSTAG>
+PLD Packing: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Partitioning">
+<CYPRESSTAG name="Initial Partitioning Summary">
+Initial Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+<CYPRESSTAG name="Final Partitioning Summary">
+Final Partitioning Summary not displayed at this verbose level.</CYPRESSTAG>
+Partitioning: Elapsed time ==> 0s.015ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Final Placement Summary">
+
+------------------------------------------------------------
+Final Placement Summary
+------------------------------------------------------------
+
+       Resource Type :      Count : Avg Inputs : Avg Outputs
+    ========================================================
+                 UDB :          8 :       2.38 :       2.13
+<CYPRESSTAG name="Final Placement Details">
+<CYPRESSTAG name="Component Details">
+
+------------------------------------------------------------
+Component Placement Details
+------------------------------------------------------------
+UDB [UDB=(0,0)] is empty.
+UDB [UDB=(0,1)] is empty.
+UDB [UDB=(0,2)] contents:
+LAB@[UDB=(0,2)][LB=0] #macrocells=2, #inputs=3, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=Net_331, Mode=(Combinatorial) @ [UDB=(0,2)][LB=0][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_274 * !\Step_Counter:CounterUDB:prevCompare\
+        );
+        Output = Net_331 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=Net_376, Mode=(D-Register) @ [UDB=(0,2)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (Net_375) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              !Net_384
+        );
+        Output = Net_376 (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u2\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => Net_308 ,
+        cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+        chain_in => \Step_Counter:CounterUDB:sC32:counterdp:carry1\ ,
+        chain_out => \Step_Counter:CounterUDB:sC32:counterdp:carry2\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \Step_Counter:CounterUDB:sC32:counterdp:u1\
+    Next in chain : \Step_Counter:CounterUDB:sC32:counterdp:u3\
+
+UDB [UDB=(0,3)] contents:
+LAB@[UDB=(0,3)][LB=0] #macrocells=4, #inputs=6, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\Step_Counter:CounterUDB:status_0\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=0]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:cmp_out_i\ * 
+              !\Step_Counter:CounterUDB:prevCompare\
+        );
+        Output = \Step_Counter:CounterUDB:status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Step_Counter:CounterUDB:status_3\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:status_1\ * 
+              !\Step_Counter:CounterUDB:underflow_reg_i\
+        );
+        Output = \Step_Counter:CounterUDB:status_3\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Step_Counter:CounterUDB:status_2\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=0][MC=2]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:overflow\ * 
+              !\Step_Counter:CounterUDB:overflow_reg_i\
+        );
+        Output = \Step_Counter:CounterUDB:status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Step_Counter:CounterUDB:overflow_reg_i\, Mode=(D-Register) @ [UDB=(0,3)][LB=0][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:overflow\
+        );
+        Output = \Step_Counter:CounterUDB:overflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(0,3)][LB=1] #macrocells=4, #inputs=6, #pterms=4
+{
+    [McSlotId=0]:     MacroCell: Name=\Step_Counter:CounterUDB:underflow_reg_i\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:status_1\
+        );
+        Output = \Step_Counter:CounterUDB:underflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Step_Counter:CounterUDB:prevCompare\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Counter:CounterUDB:cmp_out_i\
+        );
+        Output = \Step_Counter:CounterUDB:prevCompare\ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]:     MacroCell: Name=\Step_Timer:CounterUDB:count_enable\, Mode=(Combinatorial) @ [UDB=(0,3)][LB=1][MC=2]
+        Total # of inputs        : 4
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_274 * !\Step_Timer:CounterUDB:count_stored_i\ * 
+              !\Step_Counter:CounterUDB:prevCompare\ * Net_335_local
+        );
+        Output = \Step_Timer:CounterUDB:count_enable\ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]:     MacroCell: Name=\Step_Timer:CounterUDB:count_stored_i\, Mode=(D-Register) @ [UDB=(0,3)][LB=1][MC=3]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              Net_335_local
+        );
+        Output = \Step_Timer:CounterUDB:count_stored_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u3\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => Net_308 ,
+        cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+        z0_comb => \Step_Counter:CounterUDB:status_1\ ,
+        f0_comb => \Step_Counter:CounterUDB:overflow\ ,
+        ce1_comb => \Step_Counter:CounterUDB:cmp_out_i\ ,
+        f0_bus_stat_comb => \Step_Counter:CounterUDB:status_6\ ,
+        f0_blk_stat_comb => \Step_Counter:CounterUDB:status_5\ ,
+        chain_in => \Step_Counter:CounterUDB:sC32:counterdp:carry2\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \Step_Counter:CounterUDB:sC32:counterdp:u2\
+
+statusicell: Name =\Step_Counter:CounterUDB:sSTSReg:stsreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        status_6 => \Step_Counter:CounterUDB:status_6\ ,
+        status_5 => \Step_Counter:CounterUDB:status_5\ ,
+        status_3 => \Step_Counter:CounterUDB:status_3\ ,
+        status_2 => \Step_Counter:CounterUDB:status_2\ ,
+        status_1 => \Step_Counter:CounterUDB:status_1\ ,
+        status_0 => \Step_Counter:CounterUDB:status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\Enable:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \Enable:control_7\ ,
+        control_6 => \Enable:control_6\ ,
+        control_5 => \Enable:control_5\ ,
+        control_4 => \Enable:control_4\ ,
+        control_3 => \Enable:control_3\ ,
+        control_2 => \Enable:control_2\ ,
+        control_1 => \Enable:control_1\ ,
+        control_0 => Net_274 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(0,4)] is empty.
+UDB [UDB=(0,5)] is empty.
+UDB [UDB=(1,0)] is empty.
+UDB [UDB=(1,1)] is empty.
+UDB [UDB=(1,2)] contents:
+datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u1\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => Net_308 ,
+        cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+        chain_in => \Step_Counter:CounterUDB:sC32:counterdp:carry0\ ,
+        chain_out => \Step_Counter:CounterUDB:sC32:counterdp:carry1\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \Step_Counter:CounterUDB:sC32:counterdp:u0\
+    Next in chain : \Step_Counter:CounterUDB:sC32:counterdp:u2\
+
+UDB [UDB=(1,3)] is empty.
+UDB [UDB=(1,4)] is empty.
+UDB [UDB=(1,5)] is empty.
+UDB [UDB=(2,0)] is empty.
+UDB [UDB=(2,1)] is empty.
+UDB [UDB=(2,2)] contents:
+datapathcell: Name =\Step_Counter:CounterUDB:sC32:counterdp:u0\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => Net_308 ,
+        cs_addr_1 => \Step_Counter:CounterUDB:count_enable\ ,
+        chain_out => \Step_Counter:CounterUDB:sC32:counterdp:carry0\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000000000000100000000010000001000000000000001000000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \Step_Counter:CounterUDB:sC32:counterdp:u1\
+
+UDB [UDB=(2,3)] contents:
+LAB@[UDB=(2,3)][LB=1] #macrocells=1, #inputs=0, #pterms=0
+{
+    [McSlotId=0]:     MacroCell: Name=__ONE__, Mode=(Combinatorial) @ [UDB=(2,3)][LB=1][MC=0]
+        Total # of inputs        : 0
+        Total # of product terms : 0
+            Clock Enable: True
+        Main Equation            : 0 pterms
+        !(
+            0
+        );
+        Output = __ONE__ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]: (empty)
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u2\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+        cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+        chain_in => \Step_Timer:CounterUDB:sC32:counterdp:carry1\ ,
+        chain_out => \Step_Timer:CounterUDB:sC32:counterdp:carry2\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \Step_Timer:CounterUDB:sC32:counterdp:u1\
+    Next in chain : \Step_Timer:CounterUDB:sC32:counterdp:u3\
+
+controlcell: Name =\Direction:Sync:ctrl_reg\
+    PORT MAP (
+        control_7 => \Direction:control_7\ ,
+        control_6 => \Direction:control_6\ ,
+        control_5 => \Direction:control_5\ ,
+        control_4 => \Direction:control_4\ ,
+        control_3 => \Direction:control_3\ ,
+        control_2 => \Direction:control_2\ ,
+        control_1 => \Direction:control_1\ ,
+        control_0 => Net_308 );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "00000000"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Enable: True
+
+UDB [UDB=(2,4)] contents:
+datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u1\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+        cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+        chain_in => \Step_Timer:CounterUDB:sC32:counterdp:carry0\ ,
+        chain_out => \Step_Timer:CounterUDB:sC32:counterdp:carry1\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \Step_Timer:CounterUDB:sC32:counterdp:u0\
+    Next in chain : \Step_Timer:CounterUDB:sC32:counterdp:u2\
+
+UDB [UDB=(2,5)] is empty.
+UDB [UDB=(3,0)] is empty.
+UDB [UDB=(3,1)] is empty.
+UDB [UDB=(3,2)] is empty.
+UDB [UDB=(3,3)] contents:
+LAB@[UDB=(3,3)][LB=0] #macrocells=3, #inputs=4, #pterms=3
+{
+    [McSlotId=0]:     MacroCell: Name=\Step_Counter:CounterUDB:count_enable\, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=0]
+        Total # of inputs        : 3
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:prevCompare\ * 
+              \Step_Counter:CounterUDB:control_7\ * 
+              !\Step_Counter:CounterUDB:count_stored_i\
+        );
+        Output = \Step_Counter:CounterUDB:count_enable\ (fanout=4)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Step_Counter:CounterUDB:count_stored_i\, Mode=(D-Register) @ [UDB=(3,3)][LB=0][MC=1]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:prevCompare\
+        );
+        Output = \Step_Counter:CounterUDB:count_stored_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]:     MacroCell: Name=\Step_Timer:CounterUDB:status_0\, Mode=(Combinatorial) @ [UDB=(3,3)][LB=0][MC=3]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:cmp_out_i\ * 
+              !\Step_Timer:CounterUDB:prevCompare\
+        );
+        Output = \Step_Timer:CounterUDB:status_0\ (fanout=1)
+        Properties               : 
+        {
+        }
+}
+
+LAB@[UDB=(3,3)][LB=1] #macrocells=2, #inputs=2, #pterms=2
+{
+    [McSlotId=0]:     MacroCell: Name=\Step_Timer:CounterUDB:overflow_reg_i\, Mode=(D-Register) @ [UDB=(3,3)][LB=1][MC=0]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:reload\
+        );
+        Output = \Step_Timer:CounterUDB:overflow_reg_i\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=1]:     MacroCell: Name=\Step_Timer:CounterUDB:status_2\, Mode=(Combinatorial) @ [UDB=(3,3)][LB=1][MC=1]
+        Total # of inputs        : 2
+        Total # of product terms : 1
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:reload\ * 
+              !\Step_Timer:CounterUDB:overflow_reg_i\
+        );
+        Output = \Step_Timer:CounterUDB:status_2\ (fanout=1)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=2]: (empty)
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u3\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+        cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+        ce0_comb => \Step_Timer:CounterUDB:reload\ ,
+        z0_comb => \Step_Timer:CounterUDB:status_1\ ,
+        cl1_comb => \Step_Timer:CounterUDB:cmp_out_i\ ,
+        f0_bus_stat_comb => \Step_Timer:CounterUDB:status_6\ ,
+        f0_blk_stat_comb => \Step_Timer:CounterUDB:status_5\ ,
+        chain_in => \Step_Timer:CounterUDB:sC32:counterdp:carry2\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101011110000000000000001000001110000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Previous in chain : \Step_Timer:CounterUDB:sC32:counterdp:u2\
+
+statusicell: Name =\Step_Timer:CounterUDB:sSTSReg:stsreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        status_6 => \Step_Timer:CounterUDB:status_6\ ,
+        status_5 => \Step_Timer:CounterUDB:status_5\ ,
+        status_2 => \Step_Timer:CounterUDB:status_2\ ,
+        status_1 => \Step_Timer:CounterUDB:status_1\ ,
+        status_0 => \Step_Timer:CounterUDB:status_0\ );
+    Properties:
+    {
+        cy_force_order = 1
+        cy_int_mask = "1111111"
+        cy_md_select = "0011111"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+controlcell: Name =\Step_Counter:CounterUDB:sCTRLReg:ctrlreg\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        control_7 => \Step_Counter:CounterUDB:control_7\ ,
+        control_6 => \Step_Counter:CounterUDB:control_6\ ,
+        control_5 => \Step_Counter:CounterUDB:control_5\ ,
+        control_4 => \Step_Counter:CounterUDB:control_4\ ,
+        control_3 => \Step_Counter:CounterUDB:control_3\ ,
+        control_2 => \Step_Counter:CounterUDB:control_2\ ,
+        control_1 => \Step_Counter:CounterUDB:control_1\ ,
+        control_0 => \Step_Counter:CounterUDB:control_0\ );
+    Properties:
+    {
+        cy_ctrl_mode_0 = "11111111"
+        cy_ctrl_mode_1 = "00000000"
+        cy_ext_reset = 0
+        cy_force_order = 1
+        cy_init_value = "00000000"
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+
+UDB [UDB=(3,4)] contents:
+LAB@[UDB=(3,4)][LB=1] #macrocells=1, #inputs=1, #pterms=1
+{
+    [McSlotId=0]: (empty)
+    [McSlotId=1]: (empty)
+    [McSlotId=2]:     MacroCell: Name=\Step_Timer:CounterUDB:prevCompare\, Mode=(D-Register) @ [UDB=(3,4)][LB=1][MC=2]
+        Total # of inputs        : 1
+        Total # of product terms : 1
+        List of special equations: 
+            Clock  = (ClockBlock_BUS_CLK) => Global
+            Clock Enable: True
+        Main Equation            : 1 pterm
+        (
+              \Step_Timer:CounterUDB:cmp_out_i\
+        );
+        Output = \Step_Timer:CounterUDB:prevCompare\ (fanout=5)
+        Properties               : 
+        {
+        }
+
+    [McSlotId=3]: (empty)
+}
+
+datapathcell: Name =\Step_Timer:CounterUDB:sC32:counterdp:u0\
+    PORT MAP (
+        clock => ClockBlock_BUS_CLK ,
+        cs_addr_2 => __ONE__ ,
+        cs_addr_1 => \Step_Timer:CounterUDB:count_enable\ ,
+        cs_addr_0 => \Step_Timer:CounterUDB:reload\ ,
+        chain_out => \Step_Timer:CounterUDB:sC32:counterdp:carry0\ );
+    Properties:
+    {
+        a0_init = "00000000"
+        a1_init = "00000000"
+        ce0_sync = 1
+        ce1_sync = 1
+        cl0_sync = 1
+        cl1_sync = 1
+        cmsb_sync = 1
+        co_msb_sync = 1
+        cy_dpconfig = "0000000001000000000000001000000001000000010000000000000010000000000000000100000010101000010100000010000001000000101010000101000011111111000000001111111111111111101000000000000000000001000000000000000000011000"
+        d0_init = "00000000"
+        d1_init = "00000000"
+        f0_blk_sync = 1
+        f0_bus_sync = 1
+        f1_blk_sync = 1
+        f1_bus_sync = 1
+        ff0_sync = 1
+        ff1_sync = 1
+        ov_msb_sync = 1
+        so_sync = 1
+        z0_sync = 1
+        z1_sync = 1
+    }
+    Clock Polarity: Active High
+    Clock Enable: True
+    Next in chain : \Step_Timer:CounterUDB:sC32:counterdp:u1\
+
+UDB [UDB=(3,5)] is empty.
+Intr container @ [IntrContainer=(0)]: 
+  Intr@ [IntrContainer=(0)][IntrId=(0)] 
+    interrupt: Name =Button_Interrupt
+        PORT MAP (
+            interrupt => Net_376 );
+        Properties:
+        {
+            int_type = "00"
+            is_nmi = 0
+        }
+  Intr@ [IntrContainer=(0)][IntrId=(1)] 
+    interrupt: Name =Done_Interrupt
+        PORT MAP (
+            interrupt => \Step_Counter:CounterUDB:prevCompare\ );
+        Properties:
+        {
+            int_type = "00"
+            is_nmi = 0
+        }
+  Intr@ [IntrContainer=(0)][IntrId=(2)] 
+    interrupt: Name =Step_Interrupt
+        PORT MAP (
+            interrupt => \Step_Timer:CounterUDB:prevCompare\ );
+        Properties:
+        {
+            int_type = "00"
+            is_nmi = 0
+        }
+Drq container @ [DrqContainer=(0)]: empty
+Port 0 contains the following IO cells:
+[IoId=5]: 
+Pin : Name = Step_Pin(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Step_Pin(0)__PA ,
+        pin_input => \Step_Timer:CounterUDB:prevCompare\ ,
+        pad => Step_Pin(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=6]: 
+Pin : Name = Direction_Pin(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Direction_Pin(0)__PA ,
+        pin_input => Net_308 ,
+        pad => Direction_Pin(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 1 contains the following IO cells:
+Port 2 contains the following IO cells:
+[IoId=1]: 
+Pin : Name = LED_Pin(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: AUTO
+        Out Sync Option: NOSYNC
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: CMOS_OUT
+        VTrip: EITHER
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 0
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => LED_Pin(0)__PA ,
+        pin_input => Net_331 ,
+        pad => LED_Pin(0)_PAD );
+    Properties:
+    {
+    }
+
+[IoId=2]: 
+Pin : Name = Button_Pin(0)
+    Attributes:
+        In Group/Port: True
+        In Sync Option: NOSYNC
+        Out Sync Option: AUTO
+        Interrupt generated: False
+        Interrupt mode: NONE
+        Drive mode: RES_PULL_UP
+        VTrip: CMOS
+        Slew: FAST
+        Input Sync needed: False
+        Output Sync needed: False
+        SC shield enabled: False
+        POR State: ANY
+        LCD Mode: COMMON
+        Register Mode: RegComb
+        CaSense Mode: NEITHER
+        Treat as pin: True
+        Is OE Registered: False
+        Uses Analog: False
+        Can contain Digital: True
+        Is SIO: False
+        SIO Output Buf: NONREGULATED
+        SIO Input Buf: SINGLE_ENDED
+        SIO HiFreq: LOW
+        SIO Hyst: DISABLED
+        SIO Vtrip: MULTIPLIER_0_5
+        SIO Multiplier Index: 0
+        SIO RefSel: VCC_IO
+        Required Capabilities: DIGITAL, ROUTABLE
+        Initial Value: 1
+        IO Voltage: 0
+    PORT MAP (
+        pa_out => Button_Pin(0)__PA ,
+        fb => Net_384 ,
+        pad => Button_Pin(0)_PAD );
+    Properties:
+    {
+    }
+
+Port 3 contains the following IO cells:
+Port 12 contains the following IO cells:
+Port 15 contains the following IO cells:
+ARM group 0: empty
+CAN group 0: empty
+Cache group 0: empty
+CapSense group 0: empty
+Clock group 0: 
+    Clock Block @ F(Clock,0): 
+    clockblockcell: Name =ClockBlock
+        PORT MAP (
+            imo => ClockBlock_IMO ,
+            pllout => ClockBlock_PLL_OUT ,
+            ilo => ClockBlock_ILO ,
+            clk_100k => ClockBlock_100k ,
+            clk_1k => ClockBlock_1k ,
+            clk_32k => ClockBlock_32k ,
+            xtal => ClockBlock_XTAL ,
+            clk_32k_xtal => ClockBlock_XTAL_32KHZ ,
+            clk_sync => ClockBlock_MASTER_CLK ,
+            clk_bus_glb => ClockBlock_BUS_CLK ,
+            clk_bus => ClockBlock_BUS_CLK_local ,
+            dclk_glb_0 => Net_335 ,
+            dclk_0 => Net_335_local ,
+            dclk_glb_1 => Net_375 ,
+            dclk_1 => Net_375_local );
+        Properties:
+        {
+        }
+Comparator group 0: empty
+DFB group 0: empty
+DSM group 0: empty
+Decimator group 0: empty
+EMIF group 0: empty
+I2C group 0: empty
+LCD group 0: empty
+LVD group 0: empty
+PICU group 0: empty
+PM group 0: empty
+SC group 0: empty
+SPC group 0: empty
+Timer group 0: empty
+USB group 0: empty
+VIDAC group 0: empty
+OpAmp group 0: empty
+CsAbuf group 0: empty
+Vref group 0: empty
+LPF group 0: empty
+SAR group 0: empty
+ANAIF group 0: empty
+PHUB group 0: empty
+</CYPRESSTAG>
+<CYPRESSTAG name="Port Configuration Details">
+
+------------------------------------------------------------
+Port Configuration report
+------------------------------------------------------------
+     |     |       | Interrupt |                  |                  | 
+Port | Pin | Fixed |      Type |       Drive Mode |             Name | Connections
+-----+-----+-------+-----------+------------------+------------------+----------------------------------------
+   0 |   5 |     * |      NONE |         CMOS_OUT |      Step_Pin(0) | In(\Step_Timer:CounterUDB:prevCompare\)
+     |   6 |     * |      NONE |         CMOS_OUT | Direction_Pin(0) | In(Net_308)
+-----+-----+-------+-----------+------------------+------------------+----------------------------------------
+   2 |   1 |     * |      NONE |         CMOS_OUT |       LED_Pin(0) | In(Net_331)
+     |   2 |     * |      NONE |      RES_PULL_UP |    Button_Pin(0) | FB(Net_384)
+--------------------------------------------------------------------------------------------------------------
+</CYPRESSTAG>
+</CYPRESSTAG>
+</CYPRESSTAG>
+Digital component placer commit/Report: Elapsed time ==> 0s.031ms
+Digital Placement phase: Elapsed time ==> 1s.249ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Digital Routing">
+"C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\bin/sjrouter.exe" --xml-path "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\dev\psoc5/psoc5lp/route_arch-rrg.cydata" --vh2-path "StepDirection_r.vh2" --pcf-path "StepDirection.pco" --des-name "StepDirection" --dsf-path "StepDirection.dsf" --sdc-path "StepDirection.sdc" --lib-path "StepDirection_r.lib"
+Routing successful.
+Digital Routing phase: Elapsed time ==> 1s.302ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Generation">
+Bitstream Generation phase: Elapsed time ==> 0s.160ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Bitstream Verification">
+Bitstream Verification phase: Elapsed time ==> 0s.039ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Static timing analysis">
+Warning: sta.M0021: StepDirection_timing.html: Warning-1350: Asynchronous path(s) exist from "step_clock(routed)" to "CyBUS_CLK". See the timing report for details. (File=C:\Users\anomo\Documents\PSoC Creator\Trapezoid\StepDirection.cydsn\StepDirection_timing.html)
+Timing report is in StepDirection_timing.html.
+Static timing analysis phase: Elapsed time ==> 0s.444ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Data reporting">
+Data reporting phase: Elapsed time ==> 0s.000ms
+</CYPRESSTAG>
+<CYPRESSTAG name="Database update...">
+Design database save phase: Elapsed time ==> 0s.209ms
+</CYPRESSTAG>
+cydsfit: Elapsed time ==> 3s.869ms
+</CYPRESSTAG>
+Fitter phase: Elapsed time ==> 3s.869ms
+API generation phase: Elapsed time ==> 1s.229ms
+Dependency generation phase: Elapsed time ==> 0s.015ms
+Cleanup phase: Elapsed time ==> 0s.000ms
