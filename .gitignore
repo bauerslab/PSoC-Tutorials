@@ -1,0 +1,8 @@
+*.cywrk.*
+*.cyprj.*
+Backup
+*.log
+codegentemp
+CortexM3
+Export
+Generated_Source
